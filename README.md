@@ -1,131 +1,130 @@
-# Seminario de Sistemas Expertos
+# Expert Systems as a tool for diagnosing autism spectrum disorder
 
-## Contexto de la problemática 
+## Context of the problem 
 
-- El trastorno del espectro autista (TEA) es una condición neurológica compleja que afecta el desarrollo social, la comunicación y el comportamiento de las personas. 
-- Debido a la diversidad de síntomas y a la necesidad de una evaluación integral, el diagnóstico temprano del TEA puede ser un desafío para los profesionales de la salud (Carmona-Serrano, 2020).  
-- Aproximadamente el 1,5% de la población mundial sufre de TEA y todavía es diagnosticada erróneamente por psiquiatras infantiles y adultos y, a veces, incluso confundida con otras condiciones del neurodesarrollo que tienen características similares (Fusar-Poli, 2020). 
-- Aún no existe una prueba de laboratorio enfocada para ayudar al personal de atención médica a diagnosticar la afección en un 100 % y no hay tratamiento farmacológico para el TEA (Carmona-Serrano, 2020). 
-- Las aplicaciones móviles y de sistemas han demostrado ser herramientas de apoyo para detección de TEA (Adamu, 2019). 
+- Autism spectrum disorder (ASD) is a complex neurological condition that affects people's social development, communication, and behavior. 
+- Due to the diversity of symptoms and the need for comprehensive evaluation, early diagnosis of ASD can be challenging for health professionals (Carmona-Serrano, 2020).
+- Approximately 1.5% of the world's population suffers from ASD and is still misdiagnosed by child and adult psychiatrists and sometimes even confused with other neurodevelopmental conditions that have similar characteristics (Fusar-Poli, 2020). 
+- There is still no focused laboratory test to help healthcare personnel diagnose the condition 100% and there is no pharmacological treatment for ASD (Carmona-Serrano, 2020). 
+- Mobile and system applications have proven to be support tools for ASD detection (Adamu, 2019). 
 
-## Problema a Resolver
+## Problem to be solved
 
-En este contexto, el principal problema a resolver es el desarrollo de un sistema que apoye el proceso de detección del TEA. Actualmente, este proceso puede ser largo, costoso y a menudo depende de la experiencia y el conocimiento del personal médico. El desarrollo de  un sistema experto que integre el conocimiento de un experto en el campo del TEA para ayudar a una detección temprana del TEA y sea una herramienta de apoyo a los profesionales de la salud.
+In this context, the main problem to be solved is the development of a system that supports the ASD detection process. Currently, this process can be lengthy, expensive, and often depends on the experience and knowledge of the medical staff. The development of an expert system that integrates the knowledge of an expert in the field of ASD to aid in the early detection of ASD and is a support tool for health professionals.
 
-## Objetivo General 
+## General Objective 
 
-Desarrollar un sistema experto basado en inteligencia artificial que facilite la detección temprana del TEA y sea una herramienta de apoyo a los profesionales de la salud mediante la integración de conocimiento de un experto en el tema.
+To develop an expert system based on artificial intelligence that facilitates the early detection of ASD and is a support tool for health professionals by integrating knowledge from an expert in the field.
 
-## Justificación
+## Justification
 
-- Detección temprana: El TEA es un trastorno de neurodesarrollo que afecta a personas desde la niñez hasta la adultez. Por lo que la detección temprana del TEA es importante para poder desarrollar intervenciones efectivas por partes de especialistas médicos (psiquiatras, psicólogos, neurólogos)  que pueden ayudar a mejorar la calidad de vida del paciente.
+- Early detection: ASD is a neurodevelopmental disorder that affects people from childhood to adulthood. Therefore, early detection of ASD is important to be able to develop effective interventions by medical specialists (psychiatrists, psychologists, neurologists) that can help improve the patient's quality of life.
   
-- Costo y Tiempo: Los métodos tradicionales de diagnóstico, como los criterios DSM-5, la Escala de Calificación del Autismo Infantil (CARS) y las entrevistas de comportamiento autista, son costosos y requieren mucho tiempo, por lo que se limita la accesibilidad al paciente, especialmente en familias que tienen ingresos bajos y medianos.
+- Cost and Time: Traditional diagnostic methods, such as the DSM-5 criteria, the Childhood Autism Rating Scale (CARS), and autistic behavior interviews, are expensive and time-consuming, limiting patient accessibility, especially in low- and middle-income families.
   
-- Falta de especialistas: la carencia de especialistas en el diagnóstico temprano del TEA vuelve complejo el problema, ya que el paciente no recibe un diagnóstico oportuno y/o favorable, y esto tiene como resultado intervenciones tardías, lo que puede influir en el desarrollo de la calidad de vida del paciente.
+- Lack of specialists: the lack of specialists in the early diagnosis of ASD makes the problem complex, since the patient does not receive a timely and/or favorable diagnosis, and this results in late interventions, which can influence the development of the patient's quality of life.
   
-- Incertidumbre en el diagnóstico: Los factores relacionados con el autismo, como la interacción social, la comunicación y el comportamiento, no pueden medirse con certeza absoluta debido a la vaguedad y la imprecisión de la información. Esto hace que los diagnósticos tradicionales sean menos precisos.
+- Uncertainty in diagnosis: Factors related to autism, such as social interaction, communication, and behavior, cannot be measured with absolute certainty due to the vagueness and imprecision of the information. This makes traditional diagnoses less accurate.
 
-## Funcionalidad del Sistema Experto
+## Expert System Functionality
 
-- Recopilación de Datos El sistema experto recopilará información sobre los antecedentes médicos del paciente, los resultados de evaluaciones conductuales y los informes de los cuidadores. Esta información se utilizará como insumo para el proceso de diagnóstico.
+- Data Collection The expert system will collect information about the patient's medical history, the results of behavioral assessments, and caregiver reports. This information will be used as an input for the diagnostic process.
 
-- Análisis de Datos Utilizando técnicas de inteligencia artificial, el sistema analizará los datos recopilados para identificar características que puedan indicar la detección del TEA. Esto incluirá el uso de algoritmos de inteligencia artificial de sistemas expertos.
+- Data Analysis Using artificial intelligence techniques, the system will analyze the collected data to identify characteristics that may indicate the detection of ASD. This will include the use of artificial intelligence algorithms from expert systems.
 
-- Diagnóstico y Recomendaciones Basándose en el análisis de los datos, el sistema experto generará un informe de la detección del TEA.
+- Diagnosis and Recommendations Based on the analysis of the data, the expert system will generate a report on the detection of ASD.
 
-## Diseño del Sistema Experto
+## Expert System Design
 
-![image](https://github.com/user-attachments/assets/05c1b485-f9f0-4cc9-8834-6d1ccb5c0793)
+! [image](https://github.com/user-attachments/assets/05c1b485-f9f0-4cc9-8834-6d1ccb5c0793)
 
-### Arquitectura BRB 
+### BRB Architecture 
 
-![image](https://github.com/user-attachments/assets/82c227ae-a6bb-4af9-80bd-e6eaf8c4ee46)
+! [image](https://github.com/user-attachments/assets/82c227ae-a6bb-4af9-80bd-e6eaf8c4ee46)
 
-Interfaz del Usuario Es quien facilita la  comunicación entre el usuario  y el motor de inferencias. Permite ingresar información  para el sistema y comunicar  al usuario las respuestas del  S.E.
+User Interface It is what facilitates communication between the user and the inference engine. It allows you to enter information for the system and communicate to the user the answers of the E.S.
 
-Módulo de Explicación Explica los pasos realizados  por el motor de inferencias  para lograr las conclusiones,  justificando las acciones (por  qué utiliza ciertas reglas).
+Explanation Module Explains the steps taken by the inference engine to reach conclusions, justifying the actions (why it uses certain rules).
 
-- Motor de Inferencias Es la Sección del S. E que  realiza los procesos de  inferencia que relacionan la  información contenida en la  memoria de trabajo con la  base de conocimientos, para  sacar conclusiones.
+- Inference Engine: It is the section of the S.E that performs the inference processes that relate the information contained in the working memory with the knowledge base, in order to draw conclusions.
 
-- Base de Hechos Memoria auxiliar que  contiene información sobre  el problema a resolver  (datos iniciales) y el estado  del sistema a lo largo del  proceso de inferencia (datos  intermedios).
+- Fact Base: Auxiliary memory that contains information about the problem to be solved (initial data) and the state of the system throughout the inference process (intermediate data).
 
-- Base de Conocimientos Posee información sobre el  dominio de conocimientos a  que viene referido el sistema  experto. Contiene  conocimiento declarativo  (hechos) y procedimental  (reglas).
+- Knowledge Base: It has information about the domain of knowledge to which the expert system refers. It contains declarative knowledge (facts) and procedural knowledge (rules).
 
-- Módulo de Adquisición del  Conocimiento Facilita el ingreso del conocimiento  en la base y de los mecanismos de  inferencia en el motor de inferencia.  Valida la veracidad y coherencia de  los hechos y reglas que se  introducen.
+- Knowledge Acquisition Module: Facilitates the entry of knowledge into the database and inference mechanisms into the inference engine.  It validates the veracity and coherence of the facts and rules that are introduced.
 
-![image](https://github.com/user-attachments/assets/a2f25dd0-a1ac-4d18-886f-29729480818b)
+! [image](https://github.com/user-attachments/assets/a2f25dd0-a1ac-4d18-886f-29729480818b)
 
-## Desarrollo en Experta de la Base de Conocimientos
-![image](https://github.com/user-attachments/assets/5d9f2b04-5003-40ed-b80f-191812fe0cbe)
+## Expert Development of the Knowledge Base
+! [image](https://github.com/user-attachments/assets/5d9f2b04-5003-40ed-b80f-191812fe0cbe)
 
-## Implementación en Experta de la Base de Conocimientos
-![image](https://github.com/user-attachments/assets/63c8e654-2e24-4ec2-aece-f0516d629cf6)
+## Expert Implementation of the Knowledge Base
+! [image](https://github.com/user-attachments/assets/63c8e654-2e24-4ec2-aece-f0516d629cf6)
 
-## Ejecución en Experta de la Base de Conocimientos
-![image](https://github.com/user-attachments/assets/47ddcff5-70d1-4885-8775-21f36b040bef)
+## Expert Execution of the Knowledge Base
+! [image](https://github.com/user-attachments/assets/47ddcff5-70d1-4885-8775-21f36b040bef)
 
-![image](https://github.com/user-attachments/assets/4bc327f1-bd93-4d59-a8ab-81918b02f188)
+! [image](https://github.com/user-attachments/assets/4bc327f1-bd93-4d59-a8ab-81918b02f188)
 
-## Reflexiones
+## Reflections
 
-### ¿Que se les dificultó más de todo el proyecto?
+### What was most difficult for you about the whole project?
 
-Lo más complicado fue elegir el Algoritmo apropiado que se adaptara a la solución de la problemática planteada, estuve revisando varios artículos que me ayudaran a darme una idea de que se había implementado con anterioridad, encontré sistemas expertos basados en el sistema basado en reglas, en lógica difusa, en arboles de decisión, en vector support machine y basado en reglas de creencia. Cada algoritmo tiene sus fortalezas y debilidades, y puede requerir pruebas exhaustivas para determinar cuál es el más efectivo. Sin embargo, dentro de la literatura expuesta pude identificar el uso del algoritmo basado en reglas y una limitación era generar las reglas de forma manual ya que se podían no dar el resultado satisfactorio y esperado, entonces al encontrar la herramienta WAKA tomé la decisión de usar JRip (RIPPER) y asi generar las reglas basado en parámetros de validación de las reglas.
+The most complicated thing was to choose the appropriate algorithm that adapted to the solution of the problem raised, I was reviewing several articles that helped me to give me an idea that it had been implemented before, I found expert systems based on the system based on rules, fuzzy logic, decision trees, vector support machine and based on rules of belief. Each algorithm has its strengths and weaknesses, and may require extensive testing to determine which one is the most effective. However, within the literature exposed I was able to identify the use of the rule-based algorithm and a limitation was to generate the rules manually since they could not give the satisfactory and expected result, so when I found the WAKA tool I made the decision to use JRip (RIPPER) and thus generate the rules based on validation parameters of the rules.
 
-### ¿Qué se les facilitó más de todo el proyecto?
+### What did you get the most out of the whole project?
 
-Ya teniendo la forma de generar las reglas, lo que se me facilito fue la implementación de las reglas en la herramienta Experta de Python, ya que al revisar la sintaxis de como realizar el sistema experto en esta librería me fue fácil de entender, por la experiencia previa que tengo desarrollando aplicaciones con Python y después configurar la herramienta de Flask para el diseño e implementación del formulario web para que fuera más accesibles al usuario.
+Having the way to generate the rules, what was easier for me was the implementation of the rules in the Python Expert tool, since when reviewing the syntax of how to make the expert system in this library it was easy for me to understand, due to the previous experience I have developing applications with Python and then configuring the Flask tool for the design and implementation of the web form to make it more accessible to the user.
 
-### ¿Cuál es su opinión del papel que los sistemas expertos en un futuro?
+### What is your opinion of the role that expert systems play in the future?
 
-En mi opinión creo que los sistemas expertos tienen una gran desventaja con respecto a otras áreas de la inteligencia artificial, por la limitante de poder expandir el conocimiento y que este no sea costoso desarrollarlo independientemente de la herramienta de implementación, por lo que, en artículos científicos que leí y lo desarrollado en el prototipo, su futuro es la integración con otras tecnologías de inteligencia artificial, como el aprendizaje automático y el procesamiento del lenguaje natural. Esta integración permitirá que los sistemas expertos se adapten y aprendan de manera continua, mejorando su capacidad para tomar decisiones en contextos más complejos.
+In my opinion, I believe that expert systems have a great disadvantage compared to other areas of artificial intelligence, due to the limitation of being able to expand knowledge and that it is not expensive to develop it regardless of the implementation tool, so, in scientific articles that I read and what was developed in the prototype,  Its future is integration with other AI technologies, such as machine learning and natural language processing. This integration will allow expert systems to adapt and learn continuously, improving their ability to make decisions in more complex contexts.
 
+### What alternatives exist today to the use of expert systems?
 
-### ¿Qué alternativas existen hoy al uso de los sistemas expertos?
+There are currently several alternatives and approaches that can complement or replace the use of traditional expert systems. These alternatives can be:
 
-En la actualidad existen varias alternativas y enfoques que pueden complementar o sustituir el uso de sistemas expertos tradicionales. Estas alternativas pueden ser:
+- Machine Learning: Machine learning allows systems to learn patterns from data. 
 
-- Aprendizaje Automático (Machine Learning) el aprendizaje automático permite que los sistemas aprendan patrones a partir de datos. 
+- Deep Learning: Using deep neural networks, it has shown outstanding results in areas such as speech and image recognition, machine translation, and more.
 
-- Aprendizaje Profundo (Deep Learning) utiliza redes neuronales profundas, ha mostrado resultados sobresalientes en áreas como el reconocimiento de voz e imagen, traducción automática, y más.
+- Natural Language Processing allows machines to understand and generate human language. 
 
-- Procesamiento del Lenguaje Natural permite a las máquinas comprender y generar lenguaje humano. 
+- Generative AI is a type of artificial intelligence designed to generate new content from existing data. 
 
-- IA generativa es un tipo de inteligencia artificial diseñada para generar contenido nuevo a partir de datos existentes. 
+## System Improvement
 
-## Mejora del Sistema
+### Autism severity rating 
 
-### Clasificación de la gravedad del autismo 
+- The system can be improved for the detection of ASD severity based on the DSM 4 and DSM 5 criteria. 
 
-- El sistema puede mejorar para la detección de la gravedad del TEA basándose en los criterios del DSM 4 y DSM 5. 
+- Data analysis is performed with a machine learning algorithm.
 
-- El análisis de datos se realice con un algoritmo de aprendizaje automático.
+- Being able to use the Synthetic Minority Oversampling Technique (SMOTE) to correct the problem of attribute imbalance that may exist in the dataset. 
 
-- El poder utilizar la Técnica de Sobremuestreo de Minorías Sintéticas (SMOTE) para corregir el problema del desequilibrio de atributos que se puede tener en el conjunto de datos. 
+- Avoid uncertainty in patient responses by building the knowledge base in the BRBES belief rules-based system.
 
-- Evitar la incertidumbre en las respuestas de los pacientes al construir la base de conocimiento en el sistema basado en reglas de creencia BRBES.
+- Have a large amount of data in this field of study through artificial intelligence techniques, since most of the applications developed rely on literature and the human expert to obtain data. 
 
-- Tener una gran cantidad de datos en este campo de estudio a través de técnicas de inteligencia artificial, ya que la mayoría de las aplicaciones desarrolladas se basan en la literatura y en el experto humano para obtener datos. 
+## Conclusion
 
-## Conclusión
+### Improved Diagnosis
 
-### Mejora del Diagnóstico
+The development of an expert rule-based system for the detection of ASD in children was presented. This expert system handles basic rule bases, but other algorithms such as BRBES, Linear Regression, ANN, Random Forest and Decision Tree can be explored using ROC curves to evaluate their accuracy. 
 
-Se presento el desarrollo de un sistema experto basado en reglas para la detección de TEA en niños. Este sistema experto maneja bases de reglas básico, pero se pueden explorar otros algoritmos como BRBES, Regresión Lineal, ANN, Bosque Aleatorio y Árbol de Decisión utilizando curvas ROC para evaluar su precisión. 
+### Accessibility and Scalability
 
-### Accesibilidad y Escalabilidad
+The results show that the expert system works stably but its full operation is not yet validated, since the use in a real situation can provide relevant information that gives a percentage of validation that so many patients can be detected with features of ASD. 
 
-Los resultados muestran que el sistema experto funciona de forma estable pero aún no se valida su completo funcionamiento, ya que el uso en una situación real puede proporcionar información relevante que de un porcentaje de validación de que tantos pacientes pueden ser detectados con rasgos de TEA. 
+### Continuous Learning
 
-### Aprendizaje Continuo
+Therefore, it is necessary to broaden and deepen the issue of algorithms that help improve the base system and thus be able to have a higher degree of percentage than what occurs in traditional methods of detection of ASD. 
 
-Por lo tanto, se requiere ampliar y profundizar en el tema de algoritmos que ayuden a mejorar el sistema base y asi poder tener un grado de porcentaje más alto que lo que se da en métodos tradicionales de detección del TEA. 
-
-## Bibliografía
+## Bibliography
 - Adamu, A. S., Abdullahi, S. E., & Aminu, R. K. (2019). A survey on software applications use in therapy for autistic children.  2019 15th International Conference on Electronics, Computer and Computation, ICECCO 2019, 1–4. https://doi.org/10.1109/ICECCO48375.2019.9043237
 
-- Cao, Y., Zhou, Z. J., Hu, C. H., Tang, S. W., & Wang, J. (2021). A new approximate belief rule base expert system for complex  system modelling. Decision Support [¨*] Systems, 150, 113558. https://doi.org/10.1016/j.dss.2021.113558
+- Cao, Y., Zhou, Z. J., Hu, C. H., Tang, S. W., & Wang, J. (2021). A new approximate belief rule base expert system for complex system modelling. Decision Support [ ̈*] Systems, 150, 113558. https://doi.org/10.1016/j.dss.2021.113558
 
 - Carmona-Serrano, N., López-Belmonte, J., López-Núñez, J. A., & Moreno-Guerrero, A. J. (2020). Trends in autism research in the field of education in web of science: A bibliometric study. Brain Sciences, 10(12), 1–22.  https://doi.org/10.3390/brainsci10121018
 
@@ -149,7 +148,7 @@ Por lo tanto, se requiere ampliar y profundizar en el tema de algoritmos que ayu
 
 - Lialiou, P., Zikos, D., & Mantas, J. (2012). Development and evaluation of an expert system for the diagnosis of child autism. Studies in Health Technology and Informatics, 180, 1185–1187. https://doi.org/10.3233/978-1-61499-101-4-1185
 
-- Mahmoudi, M., & Akbari-zardkhaneh, S. (2015). Developing Autism Screening Expert System (ASES). AWERProcedia Information Technology & Computer Science, 2013(January).
+- Mahmoudi, M., & Akbari-zardkhaneh, S. (2015). Developing Autism Screening Expert System (ASES). AWERProducedia Information Technology & Computer Science, 2013 (January).
 
 - Merritt, D. (2012). Building expert systems in Prolog. Springer Science & Business Media.
 
@@ -168,6 +167,7 @@ Por lo tanto, se requiere ampliar y profundizar en el tema de algoritmos que ayu
 - Gnanaprasanambikai, L. (2017). Performance analysis of RIPPER algorithm using WEKA tool. International Journal of Advanced Research in Computer Science and Software Engineering, 7(5), 55–57.
 
 - Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P., & Witten, I. H. (2009). The WEKA data mining software: An update. ACM SIGKDD Explorations Newsletter, 11(1), 10–18. https://doi.org/10.1145/1656274.1656278
+
 
 
 
