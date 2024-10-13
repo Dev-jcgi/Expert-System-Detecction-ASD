@@ -36,11 +36,11 @@ To develop an expert system based on artificial intelligence that facilitates th
 
 ## Expert System Design
 
-! [image](https://github.com/user-attachments/assets/05c1b485-f9f0-4cc9-8834-6d1ccb5c0793)
+![image](./img/0.png)
 
 ### BRB Architecture 
 
-! [image](https://github.com/user-attachments/assets/82c227ae-a6bb-4af9-80bd-e6eaf8c4ee46)
+![image](./img/1.png)
 
 User Interface It is what facilitates communication between the user and the inference engine. It allows you to enter information for the system and communicate to the user the answers of the E.S.
 
@@ -54,18 +54,18 @@ Explanation Module Explains the steps taken by the inference engine to reach con
 
 - Knowledge Acquisition Module: Facilitates the entry of knowledge into the database and inference mechanisms into the inference engine.  It validates the veracity and coherence of the facts and rules that are introduced.
 
-! [image](https://github.com/user-attachments/assets/a2f25dd0-a1ac-4d18-886f-29729480818b)
+![image](./img/2.png)
 
 ## Expert Development of the Knowledge Base
-! [image](https://github.com/user-attachments/assets/5d9f2b04-5003-40ed-b80f-191812fe0cbe)
+![image](./img/3.png)
 
 ## Expert Implementation of the Knowledge Base
-! [image](https://github.com/user-attachments/assets/63c8e654-2e24-4ec2-aece-f0516d629cf6)
+![image](./img/4.png)
 
 ## Expert Execution of the Knowledge Base
-! [image](https://github.com/user-attachments/assets/47ddcff5-70d1-4885-8775-21f36b040bef)
+![image](./img/5.png)
 
-! [image](https://github.com/user-attachments/assets/4bc327f1-bd93-4d59-a8ab-81918b02f188)
+![image](./img/6.png)
 
 ## Reflections
 
